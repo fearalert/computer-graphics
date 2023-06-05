@@ -6,7 +6,7 @@
 This function is a callback function that is invoked by GLUT whenever the window size is changed. It sets the viewport dimensions to match the new window size.
 
 - renderBitmapString(float x, float y, void*font, const char* string):
-This function is defined elsewhere in the code. It is used to render text strings on the screen using GLUT's bitmap fonts.
+It is used to render text strings on the screen using GLUT's bitmap fonts.
 
 - setcol(int cc):
 This function is responsible for setting the color of a cube face based on the given color index cc. It uses a switch statement to select the appropriate color for each case:
